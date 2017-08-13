@@ -1,0 +1,317 @@
+body {
+	background: grey;
+	font-family: 'Raleway', sans-serif;
+}
+
+#home-container {
+	position: absolute;
+	top: 0px;
+	left: 10.2%;
+	width: 1280px;
+	height: 960px;
+	background: purple;
+	color: white;
+}
+
+#login-div {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	padding: 10px;
+	background: black;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#username-input {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	color: black;
+}
+
+#password-input {
+	position: relative;
+	background: white;
+	color: black;
+	height: 27px;
+	width: 204px;
+	top: 120px;
+	left: 50px;
+}
+
+#signup-div {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	padding: 10px;
+	background: black;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#user-name {
+	background: black;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 150px;
+
+}
+
+#user-icon {
+	position: relative;
+	top: 0px;
+	left: 20px;
+	height: 70px;
+	width: 70px;
+}
+
+#user-name {
+	position: relative;
+	top: 0px;
+	left: 55px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#user-name {
+	position: relative;
+	left: 10px;
+}
+
+
+
+#results-display-header {
+	font-weight: bolder;
+}
+
+#login-password {
+
+	top: 20px;
+	right: 100px;
+	color: blue;
+}
+
+#login-submit {
+	position: relative;
+	top: 120px;
+	left: 50px;
+	color: blue;
+}
+
+#home-prompt-1 {
+	position: absolute;
+	top: 18%;
+	left: 17%;
+	font-size: 40px;
+	font-weight: lighter;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+#filter-sidebar {
+	position: absolute;
+	top: 10%;
+	right: 85%;
+	background: black;
+	opacity: 0.7;
+	height: 70%;
+	width: 10%;
+	color: white;
+	overflow-y: auto;
+}
+
+#alertDiv {
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	height: 200px;
+	width: 500px;
+	background: white;
+	color: red;
+	text-align: center;
+	line-height: 100px;
+	z-index: 5;
+	font-size: 20px;
+	border: 2px solid red;
+}
+
+#consumption-sidebar {
+	position: absolute;
+	top: 10%;
+	left: 86%;
+	background: black;
+	opacity: 0.7;
+	height: 70%;
+	width: 10%;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#home-prompt-2 {
+	position: absolute;
+	top: 26%;
+	left: 20%;
+	font-size: 40px;
+	font-weight: lighter;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+#left-column {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: black;
+	height: 100%;
+	width: 10.1%;
+}
+
+#search-submit {
+	position: absolute;
+	top: 36%;
+	left: 34%;
+	color:white;
+	background-color: #363435;
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	opacity: 0.8;
+}
+
+#search-submit-shadow {
+	position: absolute;
+	top: 36%;
+	left: 34%;
+	color:white;
+	background-color: #363435;
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	opacity: 0;
+	z-index:2;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#menu-search {
+	position: absolute;
+	top: 25%;
+	left: 7%;
+	width: 240px;
+}
+
+#user {
+	background: black;
+	top: 8%;
+	left: 6%;
+}
+
+#calories-consumed {
+	position: relative;
+	left: -30px;
+}
+
+#results-display {
+	border: 1px solid white;
+	background: black;
+}
+
+#filter-search {
+	top: 20%;
+	right: 50%;
+}
+
+#fixed-calories {
+	width: 150px;
+	position: relative;
+	top: 10px;
+	left: 60px;
+	border: 1px solid white;
+	background: black;
+	border-radius: 10px;
+}
+
+#calories-consumed {
+	left: 70px;
+	width: 150px;
+	position: relative;
+	top: 10px;
+	border: 1px solid white;
+	background: black;
+	border-radius: 10px;
+}
+
+#calories-left {
+	width: 150px;
+	position: relative;
+	top: 10px;
+	left: 80px;
+	border: 1px solid white;
+	background: black;
+	border-radius: 10px;
+}
+
+#filter-container {
+
+	visibility: hidden;
+	top: 42%;
+	left: 10%;
+	padding: 10px;
+}
+
+#filter-Restaurants {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#selected-Restaurants {
+	margin-top: 10px;
+
+	cursor: pointer;
+}
+
+.selected-Filters {
+
+	left: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.green-plus {
+	height:20px;
+	width: 20px;
+
+	top: 4px;
+	left: 4px;
+}
+
+.red-minus {
+	height:20px;
+	width: 20px;
+
+	top: 4px;
+	left: 4px;
+	margin-left: 4px;
+}
+
+#menu-search-submit {
+
+	top: 160px;
+	left: 80px;
+    border-radius: 6px;
+    border: 1px solid rgb(220, 220, 220);
+    display: inline-block;
+    cursor: pointer;
+    color: #4B494A;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 24px;
+	text-shadow: #4B494A;
+	opacity: 1.0;
+}
